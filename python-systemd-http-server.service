@@ -2,7 +2,7 @@
 Description=Python HTTP Server
 
 [Service]
-User=jenkins
+User=vagrant
 WorkingDirectory=/opt/python-systemd-http-server/public
 ExecStart=/opt/python-systemd-http-server/app.py
 
